@@ -34,7 +34,7 @@ Jorge Luis Reyes-Ortiz, Alessandro Ghio, Xavier Parra-Llanas, Davide Anguita, Jo
 -tidy_dataset.txt: It contains a data frame of 10299*68 dimension merging the test and train data present in the zip file. In addition, only variables pertinent to the means or standard deviations of the measurements are kept.  
 -data_dataset_mean.txt: It contains a data frame of 180*68 dimension comprising the mean values of the data above calculated per subject and activity.
 
-##Data Pre-Processing
+##Data Processing
 
 Data from the original zip file was processed according to the following steps:
 
