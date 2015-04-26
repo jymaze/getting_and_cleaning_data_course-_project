@@ -1,4 +1,4 @@
-#R-script for Pre-Processing of The Human Activity Recognition Using Smartphones Dataset
+#R-script for Processing of The Human Activity Recognition Using Smartphones Dataset
 ---
 The script run_analysis.R has for purpose to transform data from the "Human Activity Recognition Using Smartphones Data Set Version 1.0" (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and produces a new dataset which may be used in further analyses.
 
