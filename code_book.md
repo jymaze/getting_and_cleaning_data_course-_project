@@ -26,6 +26,8 @@ Jorge Luis Reyes-Ortiz, Alessandro Ghio, Xavier Parra-Llanas, Davide Anguita, Jo
 
 ##Data Processing
 
+Package dependency: dplyr
+
 Data from the original zip file was processed according to the following steps:
 
 1.  Load test data (features data, activity labels, subjects numbers)
