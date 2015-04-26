@@ -1,5 +1,6 @@
 library(dplyr)
-setwd('//eu.boehringer.com/users/col/users4/jmaziere/Desktop/Coursera_Data_Science/getting_cleaning_data')
+
+##NB: Don't forget to set your work directory!
 
 ####Load test data (data, labels, subjects)
 if (!'test_d' %in% ls()){test_d<-read.table('UCI HAR Dataset/test/X_test.txt', sep='')} #Load test data
@@ -45,6 +46,7 @@ df_n<-sapply(df_n, function(x) gsub('mean', 'Mean', x))
 df_n<-sapply(df_n, function(x) gsub('std', 'Std', x))
 names(df)<-df_n
 write.table(df, 'tidy_dataset.txt', row.name=FALSE)
+
 ####5. From the data set in step 4, creates a second, independent tidy data set with the average of 
 ####   each variable for each activity and each subject.
 df_mean<-aggregate(.~Subject+Activity, data=df, FUN=mean)
