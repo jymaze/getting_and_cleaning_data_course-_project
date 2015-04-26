@@ -26,7 +26,7 @@ Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ort
 
 Jorge Luis Reyes-Ortiz, Alessandro Ghio, Xavier Parra-Llanas, Davide Anguita, Joan Cabestany, Andreu Català. Human Activity and Motion Disorder Recognition: Towards Smarter Interactive Cognitive Environments. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.
 
-##How to Use this script
+##How to Use this Script
 
 1. Unzip the data in the working folder of your choice. Test and train data is then accessible in a folder called "UCI HAR Dataset".
 2. Run the run_analysis.R script, making sure that the current working directory is the one where the data was unzipped with the setwd function.
